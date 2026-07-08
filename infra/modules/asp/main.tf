@@ -1,4 +1,4 @@
-module "naming" {
+mo dule "naming" {
   source = "git::https://github.com/Azure/terraform-azurerm-naming.git?ref=75d5afa" # v0.4.2
   suffix = concat(var.naming_suffix)
 }
