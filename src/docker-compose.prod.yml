@@ -1,4 +1,4 @@
-se rvices:
+services:
   frontend:
     build:
       context: frontend
