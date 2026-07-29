@@ -1,6 +1,6 @@
 variable "primary_location" {
   description = "The primary location of all resources"
-  type        = string
+  type        = string 
 
   validation {
     condition     = length(regexall(" ", var.primary_location)) == 0
