@@ -1,7 +1,7 @@
 name: CI-CD pipeline
 on:
   push:
-    paths: 
+    paths:
       - 'infra/**/*.tf'
       - 'infra/envs/*.tfvars'
 
