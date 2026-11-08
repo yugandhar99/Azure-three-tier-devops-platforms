@@ -1,4 +1,4 @@
-variable "primary_location" { 
+variable "primary_location" {
   description = "The primary location of all resources"
   type        = string
 
