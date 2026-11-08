@@ -1,4 +1,4 @@
-# Three-Tier DevOps Platform on Azure
+# Three-Tier Dev Ops Platform on Azure
 
 A production-style DevOps project for deploying a **React frontend**, **Spring Boot backend**, and **MySQL database** using **Docker**, **Terraform**, **Azure App Service**, **Azure Container Registry**, **Azure Front Door**, and secure CI/CD practices.
 
