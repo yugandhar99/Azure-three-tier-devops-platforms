@@ -1,4 +1,4 @@
-module "naming" { 
+module "naming" {
   for_each = local.locations
   source   = "git::https://github.com/Azure/terraform-azurerm-naming.git?ref=75d5afa" # v0.4.2
   suffix   = [local.project_name, terraform.workspace, each.key]
